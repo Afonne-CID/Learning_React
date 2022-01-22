@@ -1,0 +1,74 @@
+/* Styling for info section */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for image */
+.dev-image {
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+
+ .info--details {
+     padding-top: 10px;
+     padding-bottom: 10px;
+    }
+    
+.info--details > * {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info--details > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 700;
+    font-weight: bold;
+}
+
+.info--buttons {
+    display: flex;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+
+.button > li {
+    list-style: none;
+    padding-left: 3px;
+    padding-right: 7px;
+}
+
+#button--email {
+    border: none;
+    background-color: #fff;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    border-radius: 2px;
+}
+
+#button--linkedin {
+    background-color: rgb(29, 38, 165);
+    color: #fff;
+    border: none;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 24px;
+    border-radius: 2px;
+}
